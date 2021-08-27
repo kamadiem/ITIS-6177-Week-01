@@ -2,7 +2,7 @@ FROM node:12
 
 WORKDIR /appkema
 
-COPY package*.json ./
+COPY package.json ./
 
 RUN npm install
 
