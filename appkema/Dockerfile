@@ -1,13 +1,13 @@
 FROM node:12
 
-WORKDIR /appkema
+WORKDIR /app
 
-COPY package.json ./
+COPY package.json /app
 
 RUN npm install
 
-COPY . .
+COPY . /app
 
-ENV PORT=8080
+CMD node index.json
 
-CMD ["npm", "start"]
+EXPOSE 8080
