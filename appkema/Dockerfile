@@ -1,12 +1,12 @@
 FROM node:12
 
-WORKDIR /app
+WORKDIR /appkema
 
-COPY package.json /app
+COPY package.json /appkema/
 
 RUN npm install
 
-COPY . /app
+COPY . /appkema/
 
 CMD node index.json
 
