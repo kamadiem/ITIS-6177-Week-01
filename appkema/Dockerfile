@@ -8,6 +8,6 @@ RUN npm install
 
 COPY . /appkema
 
-CMD node index.json
+CMD node index.js
 
 EXPOSE 8080
