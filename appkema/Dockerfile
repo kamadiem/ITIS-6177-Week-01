@@ -10,4 +10,4 @@ COPY . /appkema
 
 CMD node index.js
 
-EXPOSE 3001
+EXPOSE 3000
